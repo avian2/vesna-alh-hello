@@ -38,12 +38,10 @@ Upload firmware (using OpenOCD 0.8.0 and Olimex ARM-USB-OCD):
 
     $ make LogatecParserDemo.load8
 
-Setup Python environment. Note that we are using Python 2.7 and an older
-version of the `vesna-alh-tools` package. There are some unresolved problems
-with Python 3 support at the moment:
+Setup Python environment.
 
     $ cd ../../../..
-    $ virtualenv -p python2.7 venv
+    $ python3 -mvenv venv
     $ . venv/bin/activate
     $ pip install -r requirements.txt
 
